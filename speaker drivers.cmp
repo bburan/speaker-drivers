@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 07 Oct 2014 09:24:35 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 07 Oct 2014 09:34:00 AM PDT
 
 BeginCmp
-TimeStamp = /541A1B4F;
+TimeStamp = /543415D5;
 Reference = APWR1;
 ValeurCmp = CONN_01X03;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x03;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /5418DBF8;
 Reference = CL1;
 ValeurCmp = 10uFT;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /541940CB;
 Reference = CL3;
 ValeurCmp = 10uFT;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
 EndCmp
 
 BeginCmp
@@ -123,14 +123,14 @@ BeginCmp
 TimeStamp = /54194E54;
 Reference = CR1;
 ValeurCmp = 10uFT;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54194E66;
 Reference = CR3;
 ValeurCmp = 10uFT;
-IdModule  = Discret:C1;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
 EndCmp
 
 BeginCmp
@@ -148,10 +148,10 @@ IdModule  = Sockets_DIP:DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /541A1E6E;
+TimeStamp = /5434245A;
 Reference = DPWR1;
-ValeurCmp = CONN_01X03;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x03;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
 EndCmp
 
 BeginCmp
