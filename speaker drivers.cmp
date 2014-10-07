@@ -1,0 +1,259 @@
+Cmp-Mod V01 Genere par PcbNew le Wed 17 Sep 2014 10:23:53 AM PDT
+
+BeginCmp
+TimeStamp = 541C5939
+Path = /54178CDB
+Reference = BUFL1;
+ValeurCmp = BUF634;
+IdModule  = LBHB:BUF634;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191EBD
+Path = /54194E41
+Reference = BUFR1;
+ValeurCmp = BUF634;
+IdModule  = LBHB:BUF634;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192373
+Path = /54178D20
+Reference = C1;
+ValeurCmp = 0.1uFC;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191EDE
+Path = /54178D12
+Reference = C3;
+ValeurCmp = 0.1uFC;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419B23D
+Path = /5418DBF8
+Reference = CL1;
+ValeurCmp = 10uFT;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419B231
+Path = /541940CB
+Reference = CL3;
+ValeurCmp = 10uFT;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191F62
+Path = /54178CFE
+Reference = CLin1;
+ValeurCmp = 1uF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191F6D
+Path = /54194E54
+Reference = CR1;
+ValeurCmp = 10uFT;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191F83
+Path = /54194E66
+Reference = CR3;
+ValeurCmp = 10uFT;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54191F99
+Path = /5417B426
+Reference = CRin1;
+ValeurCmp = 1uF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192816
+Path = /54179676
+Reference = CTL1;
+ValeurCmp = PGA2310;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419202E
+Path = /54178CE2
+Reference = OPA1;
+ValeurCmp = OPA2134;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419203C
+Path = /54178CF0
+Reference = RL1;
+ValeurCmp = 5k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419204A
+Path = /54178CE9
+Reference = RL2;
+ValeurCmp = 5k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192058
+Path = /54178CF7
+Reference = RL3;
+ValeurCmp = 100k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192072
+Path = /5417B41A
+Reference = RR1;
+ValeurCmp = 5k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192080
+Path = /5417B414
+Reference = RR2;
+ValeurCmp = 5k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419B270
+Path = /5417B420
+Reference = RR3;
+ValeurCmp = 100k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = 54199B8F
+Path = /5418C181
+Reference = CG1;
+ValeurCmp = 150uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 541C57A9
+Path = /541966EF
+Reference = CG2;
+ValeurCmp = 10uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 541926F2
+Path = /54196676
+Reference = CG3;
+ValeurCmp = 0.1uFC;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 541926FE
+Path = /5418B35C
+Reference = CN1;
+ValeurCmp = 68uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419270A
+Path = /54195FF4
+Reference = CN2;
+ValeurCmp = 10uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192715
+Path = /54195F85
+Reference = CN3;
+ValeurCmp = 0.1uFC;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192721
+Path = /5418AB1C
+Reference = CP1;
+ValeurCmp = 68uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419272D
+Path = /54195C95
+Reference = CP2;
+ValeurCmp = 10uFE;
+IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192738
+Path = /54195C28
+Reference = CP3;
+ValeurCmp = 0.1uFC;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5419B094
+Path = /54186CC3
+Reference = H1;
+ValeurCmp = NI_header;
+IdModule  = LBHB:2x2x18;
+EndCmp
+
+BeginCmp
+TimeStamp = 54192064
+Path = /54180892
+Reference = ROUT1;
+ValeurCmp = BNC;
+IdModule  = LBHB:BNC_Socket_TYCO-AMP_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 541C592A
+Path = /54172437
+Reference = LOUT1;
+ValeurCmp = BNC;
+IdModule  = LBHB:BNC_Socket_TYCO-AMP_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = 541C565D
+Path = /541A1B4F
+Reference = APWR1;
+ValeurCmp = CONN_01X03;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 541C5664
+Path = /541A1E6E
+Reference = DPWR1;
+ValeurCmp = CONN_01X03;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x03;
+EndCmp
+
+EndListe
