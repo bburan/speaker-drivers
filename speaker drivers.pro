@@ -1,6 +1,6 @@
-update=Tue 07 Oct 2014 09:04:06 AM PDT
+update=10/9/2014 2:24:26 PM
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -72,3 +72,15 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lbhb
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60

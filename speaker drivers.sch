@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:lbhb
 LIBS:speaker drivers-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -383,11 +383,7 @@ NoConn ~ 2925 2775
 NoConn ~ 2925 2875
 NoConn ~ 2925 2975
 NoConn ~ 2925 3075
-NoConn ~ 1075 1475
 NoConn ~ 1075 1675
-NoConn ~ 1075 2375
-NoConn ~ 1075 2475
-NoConn ~ 1075 2575
 NoConn ~ 1075 2675
 NoConn ~ 1075 2775
 NoConn ~ 1075 3275
@@ -1234,4 +1230,16 @@ F 3 "" H 5550 5700 60  0000 C CNN
 	1    5550 5700
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	1075 2375 950  2375
+Wire Wire Line
+	950  1475 950  2575
+Wire Wire Line
+	950  2475 1075 2475
+Connection ~ 950  2375
+Wire Wire Line
+	950  2575 1075 2575
+Connection ~ 950  2475
+Wire Wire Line
+	950  1475 1075 1475
 $EndSCHEMATC
