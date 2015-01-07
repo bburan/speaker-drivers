@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Tue 07 Oct 2014 09:34:00 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 30 Oct 2014 02:47:06 PM PDT
 
 BeginCmp
 TimeStamp = /543415D5;
@@ -36,7 +36,7 @@ IdModule  = Discret:C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5418C181;
+TimeStamp = /5452A79B;
 Reference = CG1;
 ValeurCmp = 150uFE;
 IdModule  = Capacitors_ThroughHole:Capacitor5x6RM2.5;
@@ -99,6 +99,13 @@ IdModule  = Discret:C1;
 EndCmp
 
 BeginCmp
+TimeStamp = /5452BAEE;
+Reference = COMM1;
+ValeurCmp = CONN_01X05;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x05;
+EndCmp
+
+BeginCmp
 TimeStamp = /5418AB1C;
 Reference = CP1;
 ValeurCmp = 68uFE;
@@ -148,17 +155,10 @@ IdModule  = Sockets_DIP:DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5434245A;
+TimeStamp = /5452B970;
 Reference = DPWR1;
 ValeurCmp = CONN_01X02;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54186CC3;
-Reference = H1;
-ValeurCmp = NI_header;
-IdModule  = LBHB:2x2x18;
 EndCmp
 
 BeginCmp
@@ -169,52 +169,66 @@ IdModule  = Sockets_DIP:DIP-8__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /54204FDC;
-Reference = OUT1;
-ValeurCmp = CONN_01X04;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+TimeStamp = /5452D73F;
+Reference = OUTL1;
+ValeurCmp = BNC;
+IdModule  = LBHB:BNC_Socket_TYCO-AMP_RevA_Date21Jun2010;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452D898;
+Reference = OUTR1;
+ValeurCmp = BNC;
+IdModule  = LBHB:BNC_Socket_TYCO-AMP_RevA_Date21Jun2010;
 EndCmp
 
 BeginCmp
 TimeStamp = /54178CF0;
 Reference = RL1;
 ValeurCmp = 5k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54178CE9;
 Reference = RL2;
 ValeurCmp = 5k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54178CF7;
 Reference = RL3;
 ValeurCmp = 100k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417B41A;
 Reference = RR1;
 ValeurCmp = 5k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417B414;
 Reference = RR2;
 ValeurCmp = 5k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5417B420;
 Reference = RR3;
 ValeurCmp = 100k;
-IdModule  = Discret:R3;
+IdModule  = Discret:R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452D130;
+Reference = SIG1;
+ValeurCmp = CONN_01X04;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
 EndCmp
 
 EndListe
