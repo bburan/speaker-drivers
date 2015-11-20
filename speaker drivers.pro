@@ -1,6 +1,6 @@
-update=2/17/2015 9:21:50 AM
+update=Fri 20 Nov 2015 11:02:10 AM PST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -60,8 +60,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lbhb
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -74,3 +72,5 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1
