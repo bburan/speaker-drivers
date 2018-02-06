@@ -16,7 +16,7 @@ The board is 74mm x 48mm and the mounting holes, spaced 40mm x 40mm, are sized f
 
 OSH Park will print and ship three of these boards for approximately $30. 
 
-Order the parts from the [parts list](speaker%20drivers%20part%20list.md).
+Order the parts from the [parts list](speaker%20drivers%20part%20list.md). If you get a heat sink, Aavid Thermalloy 577202B00000G should fit nicely in the space allowed.
 
 Solder all components. Be sure to attach heat sinks to the current buffers.
 
