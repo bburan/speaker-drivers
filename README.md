@@ -8,7 +8,7 @@ This circuit can drive a small earphone speaker that requires up to 2 watts of p
 * High-pass input stage with 1.26 Hz cutoff (basically a DC filter).
 * Two BUF634 in parallel to provide up to 500 mA of current.
 
-![Rendering of PCB](images/speaker%20drivers.png)
+![Rendering of PCB](images/pcb.png)
 
 The board is 74mm x 48mm and the mounting holes, spaced 40mm x 40mm, are sized for a M3 screw. The board will fit in a Hammond enclosure that accomodates 75mm wide boards.
 
