@@ -1,312 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>U:/bburan/projects/circuits/speaker drivers/speaker drivers.sch</source>
-    <date>2/20/2015 10:12:58 AM</date>
-    <tool>Eeschema (2014-10-02 BZR 5161)-product</tool>
+    <source>/home/bburan/work/equipment/circuits/audio/speaker drivers/speaker drivers.sch</source>
+    <date>Tue 06 Feb 2018 11:51:35 AM PST</date>
+    <tool>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dual Speaker Driver v2 with highpass filter</title>
+        <company>LBHB</company>
+        <rev>1</rev>
+        <date/>
+        <source>speaker drivers.sch</source>
+        <comment number="1" value="This is licensed under GPLv3"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="OPA1">
-      <value>OPA2134</value>
-      <footprint>Sockets_DIP:DIP-8__300_ELL</footprint>
-      <libsource lib="lbhb" part="OPA2134"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178CE2</tstamp>
-    </comp>
-    <comp ref="RL1">
-      <value>100k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178CF0</tstamp>
-    </comp>
-    <comp ref="RL3">
-      <value>100k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178CF7</tstamp>
-    </comp>
-    <comp ref="CLin1">
-      <value>1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178CFE</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>0.1uFC</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178D12</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>0.1uFC</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178D20</tstamp>
-    </comp>
-    <comp ref="RR1">
-      <value>100k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5417B41A</tstamp>
-    </comp>
-    <comp ref="RR3">
-      <value>100k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5417B420</tstamp>
-    </comp>
-    <comp ref="CRin1">
-      <value>1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5417B426</tstamp>
-    </comp>
-    <comp ref="BUFR1">
+    <comp ref="B1">
       <value>BUF634</value>
-      <footprint>LBHB:BUF634</footprint>
-      <libsource lib="lbhb" part="BUF634"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54194E41</tstamp>
-    </comp>
-    <comp ref="CR1">
-      <value>10uFT</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54194E54</tstamp>
-    </comp>
-    <comp ref="CP3">
-      <value>0.1uFC</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54195C28</tstamp>
-    </comp>
-    <comp ref="CP2">
-      <value>10uFE</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54195C95</tstamp>
-    </comp>
-    <comp ref="CN3">
-      <value>0.1uFC</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54195F85</tstamp>
-    </comp>
-    <comp ref="CN2">
-      <value>10uFE</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54195FF4</tstamp>
-    </comp>
-    <comp ref="CG2">
-      <value>10uFE</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>541966EF</tstamp>
-    </comp>
-    <comp ref="RR2">
-      <value>5k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5417B414</tstamp>
-    </comp>
-    <comp ref="RL2">
-      <value>5k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54178CE9</tstamp>
-    </comp>
-    <comp ref="BUFR2">
-      <value>BUF634</value>
-      <footprint>LBHB:BUF634</footprint>
-      <libsource lib="lbhb" part="BUF634"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54ADE7DF</tstamp>
-    </comp>
-    <comp ref="RR4">
-      <value>22</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AE1906</tstamp>
-    </comp>
-    <comp ref="CR3">
-      <value>2uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AE190C</tstamp>
-    </comp>
-    <comp ref="LR1">
-      <value>100uH</value>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AE1912</tstamp>
-    </comp>
-    <comp ref="CR2">
-      <value>10uFT</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AEF5C7</tstamp>
-    </comp>
-    <comp ref="BUFL1">
-      <value>BUF634</value>
-      <footprint>LBHB:BUF634</footprint>
-      <libsource lib="lbhb" part="BUF634"/>
+      <footprint>TO_SOT_Packages_THT:TO-220-5_Vertical</footprint>
+      <fields>
+        <field name="Part number">BUF634T</field>
+        <field name="Notes">heat sink recommended</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="BUF634"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AF3A82</tstamp>
     </comp>
-    <comp ref="CL1">
-      <value>10uFT</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
+    <comp ref="CB5">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">TAP106M025SCS</field>
+        <field name="Notes">tantalum recommended</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AF3A94</tstamp>
     </comp>
-    <comp ref="BUFL2">
-      <value>BUF634</value>
-      <footprint>LBHB:BUF634</footprint>
-      <libsource lib="lbhb" part="BUF634"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AF3AA0</tstamp>
-    </comp>
-    <comp ref="RL4">
-      <value>22</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AF3AB2</tstamp>
-    </comp>
-    <comp ref="CL3">
-      <value>2uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AF3AB8</tstamp>
-    </comp>
-    <comp ref="LL1">
-      <value>100uH</value>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AF3ABE</tstamp>
-    </comp>
-    <comp ref="CL2">
-      <value>10uFT</value>
-      <footprint>Capacitors_ThroughHole:Capacitor5x6RM2.5</footprint>
-      <libsource lib="device" part="CP2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54AF3AC4</tstamp>
-    </comp>
-    <comp ref="SIGIN1">
-      <value>4P_miniDIN</value>
-      <libsource lib="lbhb" part="4P_miniDIN"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B84A27</tstamp>
-    </comp>
-    <comp ref="SER1">
-      <value>8P_miniDIN</value>
-      <libsource lib="lbhb" part="8P_miniDIN"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B84A4E</tstamp>
-    </comp>
-    <comp ref="Cvr1">
-      <value>0.33uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B86E74</tstamp>
-    </comp>
-    <comp ref="Cvr2">
+    <comp ref="CB2">
       <value>0.1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B86F82</tstamp>
-    </comp>
-    <comp ref="SIGOUT1">
-      <value>4P_miniDIN</value>
-      <libsource lib="lbhb" part="4P_miniDIN"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B88FC4</tstamp>
-    </comp>
-    <comp ref="VREG1">
-      <value>78L05</value>
-      <libsource lib="regul" part="78L05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54B95B21</tstamp>
-    </comp>
-    <comp ref="VCTL1">
-      <value>PGA2310</value>
-      <libsource lib="lbhb" part="PGA2310"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54BEBBE7</tstamp>
-    </comp>
-    <comp ref="RS1">
-      <value>100k</value>
-      <footprint>Discret:R5</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54BEC355</tstamp>
-    </comp>
-    <comp ref="PWR1">
-      <value>4P_miniDIN_PWR</value>
-      <libsource lib="lbhb" part="4P_miniDIN_PWR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54C06807</tstamp>
-    </comp>
-    <comp ref="CR6">
-      <value>0.1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E66AF5</tstamp>
-    </comp>
-    <comp ref="CR5">
-      <value>0.1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E66E7E</tstamp>
-    </comp>
-    <comp ref="CL6">
-      <value>0.1uF</value>
-      <footprint>Discret:C1</footprint>
-      <libsource lib="device" part="C"/>
+      <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="C-RESCUE-speaker_drivers"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E68109</tstamp>
     </comp>
-    <comp ref="CL5">
+    <comp ref="P3">
+      <value>0.1" header</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="speaker drivers-cache" part="BNC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564F895D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>0.1" header</value>
+      <footprint>Conn_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="speaker drivers-cache" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564FBDAF</tstamp>
+    </comp>
+    <comp ref="CB4">
       <value>0.1uF</value>
-      <footprint>Discret:C1</footprint>
+      <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="C-RESCUE-speaker_drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565D9523</tstamp>
+    </comp>
+    <comp ref="CB3">
+      <value>0.1uF</value>
+      <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="C-RESCUE-speaker_drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565D963B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>0.1" header</value>
+      <footprint>Conn_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="speaker drivers-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>565DB773</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B1K0CC</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56709297</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B100KCC</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56709339</tstamp>
+    </comp>
+    <comp ref="CB6">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">TAP106M025SCS</field>
+        <field name="Notes">tantalum recommended</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54AF3AC4</tstamp>
+    </comp>
+    <comp ref="CB1">
+      <value>0.1uF</value>
+      <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="C-RESCUE-speaker_drivers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5670BD03</tstamp>
+    </comp>
+    <comp ref="B2">
+      <value>BUF634</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-5_Vertical</footprint>
+      <fields>
+        <field name="Part number">BUF634T</field>
+        <field name="Notes">heat sink recommended</field>
+      </fields>
+      <libsource lib="speaker drivers-cache" part="BUF634"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54AF3AA0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OPA134</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Part number">OPA134PA</field>
+      </fields>
+      <libsource lib="linear" part="OPA134"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4E9B26</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>mounting hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EA5E2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>mounting hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EA7D3</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>mounting hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EA95B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>mounting hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EA9F2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">MKS02-1/50/10</field>
+        <field name="Notes">metal film</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>54E68923</tstamp>
+      <tstamp>5A73487E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B100KCC</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7349DB</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C">
-      <description>Condensateur non polarise</description>
+    <libpart lib="speaker drivers-cache" part="BNC">
       <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="speaker drivers-cache" part="BUF634">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BUF634</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BW" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="V-" type="power_in"/>
+        <pin num="4" name="~" type="openCol"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -317,7 +247,55 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="CP2">
+    <libpart lib="speaker drivers-cache" part="C-RESCUE-speaker_drivers">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-speaker_drivers</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="speaker drivers-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="speaker drivers-cache" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="speaker drivers-cache" part="CP2">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -332,24 +310,58 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="INDUCTOR">
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">L</field>
-        <field name="Value">INDUCTOR</field>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="OP07">
+      <aliases>
+        <alias>OP77</alias>
+        <alias>LT1363</alias>
+        <alias>OPA134</alias>
+      </aliases>
+      <description>Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>TO*99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="~" type="input"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
-      <description>Resistance</description>
+      <description>Resistor</description>
       <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
@@ -360,332 +372,100 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="regul" part="7805">
-      <aliases>
-        <alias>LM7805</alias>
-        <alias>LM7812</alias>
-        <alias>78L05</alias>
-      </aliases>
-      <description>Linear Regulator +5V</description>
-      <docs>regulator\lm78xx.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">7805</field>
-      </fields>
-      <pins>
-        <pin num="GND" name="GND" type="input"/>
-        <pin num="VI" name="VI" type="input"/>
-        <pin num="VO" name="VO" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="4P_miniDIN">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">4P_miniDIN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="BiDi"/>
-        <pin num="4" name="~" type="BiDi"/>
-        <pin num="C" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="4P_miniDIN_PWR">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">4P_miniDIN_PWR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="power_out"/>
-        <pin num="4" name="~" type="power_out"/>
-        <pin num="C" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="8P_miniDIN">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">8P_miniDIN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="BiDi"/>
-        <pin num="2" name="~" type="BiDi"/>
-        <pin num="3" name="~" type="BiDi"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="BiDi"/>
-        <pin num="6" name="~" type="BiDi"/>
-        <pin num="7" name="~" type="BiDi"/>
-        <pin num="8" name="~" type="BiDi"/>
-        <pin num="C" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="BUF634">
-      <description>250mA high speed buffer</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">BUF634</field>
-      </fields>
-      <pins>
-        <pin num="1" name="BW" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="V-" type="power_in"/>
-        <pin num="4" name="~" type="openCol"/>
-        <pin num="5" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="OPA2134">
-      <description>high performance audio op amp</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">OPA2134</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="openCol"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="openCol"/>
-        <pin num="8" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="lbhb" part="PGA2310">
-      <description>2 channel audio control</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PGA2310</field>
-      </fields>
-      <pins>
-        <pin num="1" name="ZCEN" type="input"/>
-        <pin num="2" name="CS" type="input"/>
-        <pin num="3" name="SDI" type="input"/>
-        <pin num="4" name="VD+" type="power_in"/>
-        <pin num="5" name="DGND" type="power_in"/>
-        <pin num="6" name="SCLK" type="input"/>
-        <pin num="7" name="SDO" type="output"/>
-        <pin num="8" name="MUTE" type="input"/>
-        <pin num="9" name="VinR" type="input"/>
-        <pin num="10" name="AgndR" type="input"/>
-        <pin num="11" name="VoutR" type="output"/>
-        <pin num="12" name="VA+" type="power_in"/>
-        <pin num="13" name="VA-" type="power_in"/>
-        <pin num="14" name="VoutL" type="output"/>
-        <pin num="15" name="AgndL" type="input"/>
-        <pin num="16" name="VinL" type="input"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>C:\KiCad\share\library\device.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="regul">
-      <uri>C:\KiCad\share\library\regul.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="lbhb">
-      <uri>U:\bburan\projects\circuits\libraries\lbhb.lib</uri>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="speaker drivers-cache">
+      <uri>/home/bburan/work/equipment/circuits/audio/speaker drivers/speaker drivers-cache.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(BUFL1-Pad2)">
-      <node ref="BUFL1" pin="2"/>
-      <node ref="OPA1" pin="1"/>
-      <node ref="BUFL2" pin="2"/>
+    <net code="1" name="-12V">
+      <node ref="B1" pin="1"/>
+      <node ref="B2" pin="3"/>
+      <node ref="B1" pin="3"/>
+      <node ref="CB6" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="CB3" pin="2"/>
+      <node ref="B2" pin="1"/>
+      <node ref="CB1" pin="1"/>
     </net>
-    <net code="2" name="Net-(CL3-Pad2)">
-      <node ref="CL3" pin="2"/>
-      <node ref="LL1" pin="2"/>
-      <node ref="SIGOUT1" pin="3"/>
+    <net code="2" name="+12V">
+      <node ref="U1" pin="7"/>
+      <node ref="B2" pin="5"/>
+      <node ref="CB2" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="B1" pin="5"/>
+      <node ref="CB5" pin="1"/>
+      <node ref="CB4" pin="2"/>
     </net>
-    <net code="3" name="Net-(CR3-Pad2)">
-      <node ref="CR3" pin="2"/>
-      <node ref="SIGOUT1" pin="4"/>
-      <node ref="LR1" pin="2"/>
+    <net code="3" name="AGND">
+      <node ref="R1" pin="2"/>
+      <node ref="CB4" pin="1"/>
+      <node ref="CB5" pin="2"/>
+      <node ref="CB6" pin="1"/>
+      <node ref="CB3" pin="1"/>
+      <node ref="CB1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="CB2" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="4" name="Net-(CR3-Pad1)">
-      <node ref="RR4" pin="2"/>
-      <node ref="CR3" pin="1"/>
+    <net code="4" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="5" name="Net-(OPA1-Pad6)">
-      <node ref="OPA1" pin="6"/>
-      <node ref="RR2" pin="2"/>
-      <node ref="RR1" pin="1"/>
+    <net code="5" name="Net-(B1-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="B2" pin="2"/>
+      <node ref="B1" pin="2"/>
     </net>
-    <net code="6" name="Net-(BUFR1-Pad4)">
-      <node ref="BUFR1" pin="4"/>
-      <node ref="RR2" pin="1"/>
-      <node ref="RR4" pin="1"/>
-      <node ref="BUFR2" pin="4"/>
+    <net code="6" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="7" name="Net-(SIGIN1-Pad1)">
-      <node ref="VCTL1" pin="15"/>
-      <node ref="SIGIN1" pin="1"/>
+    <net code="7" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="8" name="Net-(CLin1-Pad2)">
-      <node ref="SIGIN1" pin="3"/>
-      <node ref="CLin1" pin="2"/>
-    </net>
-    <net code="9" name="Net-(OPA1-Pad2)">
-      <node ref="RL2" pin="2"/>
-      <node ref="OPA1" pin="2"/>
-      <node ref="RL1" pin="1"/>
-    </net>
-    <net code="10" name="Net-(CL3-Pad1)">
-      <node ref="RL4" pin="2"/>
-      <node ref="CL3" pin="1"/>
-    </net>
-    <net code="11" name="Net-(BUFL1-Pad4)">
-      <node ref="BUFL2" pin="4"/>
-      <node ref="BUFL1" pin="4"/>
-      <node ref="RL4" pin="1"/>
-      <node ref="RL2" pin="1"/>
-    </net>
-    <net code="12" name="Net-(CRin1-Pad1)">
-      <node ref="VCTL1" pin="9"/>
-      <node ref="CRin1" pin="1"/>
-    </net>
-    <net code="13" name="Net-(CLin1-Pad1)">
-      <node ref="VCTL1" pin="16"/>
-      <node ref="CLin1" pin="1"/>
-    </net>
-    <net code="14" name="Net-(BUFR1-Pad2)">
-      <node ref="OPA1" pin="7"/>
-      <node ref="BUFR2" pin="2"/>
-      <node ref="BUFR1" pin="2"/>
-    </net>
-    <net code="15" name="Net-(SIGIN1-Pad2)">
-      <node ref="VCTL1" pin="10"/>
-      <node ref="SIGIN1" pin="2"/>
-    </net>
-    <net code="16" name="Net-(OPA1-Pad3)">
-      <node ref="VCTL1" pin="14"/>
-      <node ref="RL3" pin="2"/>
-      <node ref="OPA1" pin="3"/>
-    </net>
-    <net code="17" name="Net-(OPA1-Pad5)">
-      <node ref="OPA1" pin="5"/>
-      <node ref="RR3" pin="2"/>
-      <node ref="VCTL1" pin="11"/>
-    </net>
-    <net code="18" name="DGND">
-      <node ref="RS1" pin="1"/>
-      <node ref="SER1" pin="4"/>
-      <node ref="SER1" pin="C"/>
-      <node ref="Cvr1" pin="1"/>
-      <node ref="Cvr2" pin="1"/>
-      <node ref="VREG1" pin="GND"/>
-      <node ref="VCTL1" pin="5"/>
-      <node ref="CG2" pin="2"/>
-    </net>
-    <net code="19" name="AGND">
-      <node ref="RR3" pin="1"/>
-      <node ref="RR1" pin="2"/>
-      <node ref="SIGOUT1" pin="C"/>
-      <node ref="C1" pin="1"/>
-      <node ref="CR1" pin="2"/>
+    <net code="8" name="Net-(C2-Pad2)">
+      <node ref="P3" pin="1"/>
       <node ref="C2" pin="2"/>
-      <node ref="CR2" pin="1"/>
-      <node ref="LR1" pin="1"/>
-      <node ref="RL1" pin="2"/>
-      <node ref="RL3" pin="1"/>
-      <node ref="CN2" pin="1"/>
-      <node ref="CN3" pin="1"/>
-      <node ref="CP2" pin="2"/>
-      <node ref="CP3" pin="2"/>
-      <node ref="LL1" pin="1"/>
-      <node ref="SIGOUT1" pin="2"/>
-      <node ref="PWR1" pin="1"/>
-      <node ref="SIGIN1" pin="C"/>
-      <node ref="CL2" pin="1"/>
-      <node ref="CL6" pin="2"/>
-      <node ref="CL1" pin="2"/>
-      <node ref="PWR1" pin="2"/>
-      <node ref="CR6" pin="2"/>
-      <node ref="CL5" pin="2"/>
-      <node ref="CR5" pin="2"/>
-      <node ref="PWR1" pin="C"/>
-      <node ref="SIGOUT1" pin="1"/>
     </net>
-    <net code="20" name="-12V">
-      <node ref="OPA1" pin="4"/>
-      <node ref="CL2" pin="2"/>
-      <node ref="PWR1" pin="4"/>
-      <node ref="BUFL1" pin="1"/>
-      <node ref="CR5" pin="1"/>
-      <node ref="VCTL1" pin="13"/>
-      <node ref="BUFL1" pin="3"/>
-      <node ref="BUFL2" pin="3"/>
-      <node ref="BUFL2" pin="1"/>
-      <node ref="CN2" pin="2"/>
-      <node ref="CL5" pin="1"/>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="3"/>
       <node ref="C2" pin="1"/>
-      <node ref="BUFR1" pin="3"/>
-      <node ref="CR2" pin="2"/>
-      <node ref="BUFR1" pin="1"/>
-      <node ref="BUFR2" pin="1"/>
-      <node ref="BUFR2" pin="3"/>
-      <node ref="CN3" pin="2"/>
     </net>
-    <net code="21" name="+12V">
-      <node ref="CL6" pin="1"/>
-      <node ref="PWR1" pin="3"/>
-      <node ref="CR6" pin="1"/>
-      <node ref="CL1" pin="1"/>
-      <node ref="Cvr1" pin="2"/>
-      <node ref="BUFL1" pin="5"/>
-      <node ref="BUFL2" pin="5"/>
-      <node ref="C1" pin="2"/>
-      <node ref="BUFR2" pin="5"/>
-      <node ref="OPA1" pin="8"/>
-      <node ref="BUFR1" pin="5"/>
-      <node ref="VCTL1" pin="12"/>
-      <node ref="CR1" pin="1"/>
-      <node ref="CP2" pin="1"/>
-      <node ref="CP3" pin="1"/>
-      <node ref="VREG1" pin="VI"/>
+    <net code="10" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="22" name="Net-(CG2-Pad1)">
-      <node ref="CG2" pin="1"/>
-      <node ref="Cvr2" pin="2"/>
-      <node ref="VREG1" pin="VO"/>
-      <node ref="VCTL1" pin="4"/>
+    <net code="11" name="Net-(B1-Pad4)">
+      <node ref="R2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="B1" pin="4"/>
+      <node ref="B2" pin="4"/>
     </net>
-    <net code="23" name="Net-(CRin1-Pad2)">
-      <node ref="SIGIN1" pin="4"/>
-      <node ref="CRin1" pin="2"/>
+    <net code="12" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
     </net>
-    <net code="24" name="/SDI">
-      <node ref="SER1" pin="7"/>
-      <node ref="VCTL1" pin="3"/>
+    <net code="13" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
     </net>
-    <net code="25" name="/SCLK">
-      <node ref="SER1" pin="3"/>
-      <node ref="VCTL1" pin="6"/>
+    <net code="14" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="26" name="/CS">
-      <node ref="SER1" pin="8"/>
-      <node ref="VCTL1" pin="2"/>
-    </net>
-    <net code="27" name="/ZCEN">
-      <node ref="VCTL1" pin="1"/>
-      <node ref="SER1" pin="5"/>
-    </net>
-    <net code="28" name="/MUTE">
-      <node ref="SER1" pin="6"/>
-      <node ref="VCTL1" pin="8"/>
-      <node ref="RS1" pin="2"/>
-    </net>
-    <net code="29" name="Net-(VCTL1-Pad7)">
-      <node ref="VCTL1" pin="7"/>
-    </net>
-    <net code="32" name="Net-(SER1-Pad1)">
-      <node ref="SER1" pin="1"/>
-    </net>
-    <net code="33" name="Net-(SER1-Pad2)">
-      <node ref="SER1" pin="2"/>
+    <net code="15" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
     </net>
   </nets>
 </export>
